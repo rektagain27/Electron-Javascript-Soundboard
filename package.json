@@ -1,0 +1,21 @@
+{
+  "name": "electronjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "electron-json-storage": "^4.6.0",
+    "electron-store": "^8.1.0",
+    "git": "^0.1.5"
+  }
+}

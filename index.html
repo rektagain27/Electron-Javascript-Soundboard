@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Electron.JS Soundboard</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h3 style="bottom:0%;">Version 0.09</h3>
+    <h1>Soundboard</h1>
+    
+    <h2 id="countbar"></h2>
+
+    <div class="break">
+
+    </div>
+    
+ 
+    <section class="button-container" id="button-container">
+
+    </section>
+    <section id="soundbar">
+
+    </section>
+    
+    <div class="navbar">
+      <a style="border-color: rgb(44, 148, 51)" id="playAllButton">Play All</a>
+      <a style="border-color: rgb(44, 148, 51)" id="playButton">Play Paused</a>
+      <a style="border-color: rgb(25, 39, 26);"id="pauseButton">Pause</a>
+      <a style="border-color: brown;"id="stopButton">Stop</a>
+      
+      <button style="border-color:rgb(129, 4, 4) ;"id="clearAll">Clear All</button>
+      <button style="border-color: rgb(20, 20, 20);" id="add">Add New Sound</button>
+      
+      <input type="text" class="inputText" id="getName" placeholder="Title the new audio...">
+      <input type="file" id="getAddress" placeholder="Address">
+      <input type="range" id="volume" name="volume" min="0" max="100" style="float: right; margin-right: 60px; margin-top: 17px;" >
+    </div>
+	<script src="index.js"></script>
+  </body>
+</html>
+
